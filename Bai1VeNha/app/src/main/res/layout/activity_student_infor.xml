@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.StudentInforActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="@dimen/dp_10"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:background="@drawable/custom_edittext"
+                android:id="@+id/txt_student_name"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="@dimen/dp_30"
+                android:textSize="@dimen/sp_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="@dimen/sp_20"
+                android:id="@+id/txt_country"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/custom_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="@dimen/sp_20"
+                android:id="@+id/txt_birthday"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/custom_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="@dimen/sp_20"
+                android:id="@+id/txt_gender"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/custom_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="@dimen/sp_20"
+                android:id="@+id/txt_class"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/custom_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="@dimen/sp_20"
+                android:id="@+id/txt_cource"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/custom_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:background="@color/blue"
+                android:onClick="onBack"
+                android:text="@string/on_back"
+                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/dp_30"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

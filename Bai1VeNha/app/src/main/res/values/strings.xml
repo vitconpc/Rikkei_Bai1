@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Bai1VeNha</string>
+    <string name="enter_student_name">Nhập tên sinh viên</string>
+    <string name="register">Đăng ký</string>
+    <string name="not_enter_name">Bạn chưa nhập tên</string>
+    <string name="on_back">Trở về</string>
+    <string name="country">Quê quán</string>
+    <string name="birthday">Ngày sinh</string>
+    <string name="gender">Giới tính</string>
+    <string name="classroom">Lớp</string>
+    <string name="cource">Khóa học</string>
+</resources>

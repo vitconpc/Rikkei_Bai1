@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.StudentActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="@dimen/dp_10"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_student_name"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="@dimen/dp_30"
+                android:gravity="center"
+                android:textSize="@dimen/sp_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/edt_country"
+                android:hint="@string/country"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/custom_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/edt_birthday"
+                android:hint="@string/birthday"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/custom_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edt_gender"
+                android:hint="@string/gender"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/custom_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edt_class"
+                android:hint="@string/classroom"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/custom_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edt_cource"
+                android:hint="@string/cource"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/custom_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:background="@color/blue"
+                android:onClick="goToStudentInfor"
+                android:text="@string/register"
+                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/dp_30"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
